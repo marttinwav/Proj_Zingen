@@ -22,7 +22,7 @@
   display: none;
 }
 
-.even-colomuns {
+.even-columns {
   display: grid;
   gap: 1rem;
 }
@@ -55,9 +55,13 @@
 
   .desktop-only {
     display: initial;
+    /* position: absolute;
+    right: 32px;
+    top: 80px; */
   }
 
-  .even-colomuns {
+  .even-columns {
+    display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
   }

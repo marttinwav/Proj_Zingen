@@ -102,6 +102,9 @@ img {
   max-width: 100%;
   display: inline-block;
 }
+p {
+  font-size: var(--fs-base);
+}
 
 @media (width >= 80em) {
   :root {
